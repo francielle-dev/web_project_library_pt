@@ -1,10 +1,10 @@
 .page {
-    min-width: 1100px;
-    max-width: 1600px;
-    margin:0 auto;
-    font-family: arial, sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .header {
@@ -30,7 +30,7 @@
 
 .nav__links {
   margin: 8px 0 0;
-  display:flex;
+  display: flex;
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
@@ -87,7 +87,7 @@
 .staff {
   background-image: url("../images/staff_picks_background.jpg");
   padding: 100px 0 140px;
-  background-size:cover ;
+  background-size: cover;
 }
 
 .staff__title {
@@ -108,15 +108,15 @@
   color: #ffffff;
 }
 
-.staff__cards{
+.staff__cards {
   max-width: 760px;
-  margin:0 auto;
-  display:flex;
+  margin: 0 auto;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 40px;
   list-style-type: none;
-  padding-left:0;
+  padding-left: 0;
   margin-top: 68px;
 }
 
@@ -147,7 +147,6 @@
   margin: 20px 0 0;
   font-size: 16px;
   line-height: 24px;
-
 }
 
 .card__footer {
@@ -240,18 +239,18 @@
 }
 
 .person_name_feynman {
-  top:-30px;
-  left:319px;
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
-  top:96px;
-  right:125px;
+  top: 96px;
+  right: 125px;
 }
 
 .person_name_cannon {
-  right:216px;
-  bottom:18px;
+  right: 216px;
+  bottom: 18px;
 }
 
 .person_name_mitchell {
@@ -260,8 +259,8 @@
 }
 
 .person_name_tarter {
-top: 79px;
-left: 159px;
+  top: 79px;
+  left: 159px;
 }
 
 .person__image {
@@ -269,11 +268,11 @@ left: 159px;
 }
 
 .person__image_size_l {
- width: 140px;
+  width: 140px;
 }
 
 .person__image_size_m {
- width: 100px;
+  width: 100px;
 }
 
 .person__image_size_s {
@@ -284,4 +283,110 @@ left: 159px;
   text-align: center;
   font-size: 14px;
   margin: 0;
+}
+
+.membership {
+  padding: 100px 0 140px;
+  background-color: #057bf2;
+  color: #ffffff;
+}
+
+.membership__title {
+  max-width: 574px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 44px;
+  font-weight: 500;
+  line-height: 52px;
+}
+
+.membership__steps {
+  list-style-type: none;
+  padding: 0;
+  margin: 100px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 40px;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  flex-basis: 200px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  padding: 60px 80px;
+  box-sizing: border-box;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__logo {
+  width: 58px;
+  height: 80px;
+}
+
+.footer__column-heading {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__list-item {
+  margin-top: 16px;
+}
+
+.footer__column-link {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.footer__copyright {
+  color: #ffffff;
+  margin-top: 100px;
+  margin-bottom: 0;
 }
